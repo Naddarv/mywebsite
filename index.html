@@ -266,14 +266,7 @@ setInterval(refreshDashboard, 2000);   // tiles + gainers/losers
 setInterval(refreshChartOnly, 15000);  // chart
 setInterval(fetchCrypto, 2000);        // BTC/ETH
 refreshDashboard(); refreshChartOnly(); fetchCrypto();
-  
-document.addEventListener("backbutton", function () {
-  if (window.history.length > 1) {
-    window.history.back();
-  } else {
-    navigator.app.exitApp();
-  }
-});
+
 </script>
   
 </body>
